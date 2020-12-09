@@ -1,0 +1,11 @@
+ [Unit]
+Description=E-AgClient Başlatıldı.
+After=multi-user.target
+
+[Service]
+Type=simple
+Environment=export DISPLAY=:0
+ExecStart=/usr/bin/Client 1>/usr/share/E-Ag/Client.log 2>ClientError.log
+
+[Install]
+WantedBy=multi-user.target

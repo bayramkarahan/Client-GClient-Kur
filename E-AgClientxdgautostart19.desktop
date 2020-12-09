@@ -1,0 +1,5 @@
+#bayram KARAHAN bayramk@gmail.com
+
+[Desktop Entry]
+Exec=sh /usr/bin/E-AgClientxdglink.sh
+Type=Application
